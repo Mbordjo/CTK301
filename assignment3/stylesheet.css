@@ -1,0 +1,52 @@
+/*StyleSheet made by Aiden Bordjoski || Completed on 2/11/2024*/
+
+h1 {
+    color: rgb(240, 115, 115);
+    background-color: rgb(243, 166, 166);
+}
+
+h2 {
+    color: lightslategrey;
+    background-color: lightgray;
+}
+
+h3 {
+    color: lightskyblue;
+    background-color: lightslategray;
+}
+
+h4 {
+    color: rgb(231, 195, 200);
+    background-color: rgb(181, 125, 103);
+}
+
+#sequence {
+    /*                 RRGGBB   */
+    background-color: #e93865;  
+}
+
+#about {
+    /*                 RRGGBB   */
+    background-color: #e93865;  
+}
+
+.two {
+    background-color: rgb(152, 206, 129); 
+    color: #03ac3b; 
+}
+
+.three {
+    background-color: rgb(216, 146, 212); 
+    color: #9b03ac; 
+}
+
+/* Changing link colors*/
+a:link {
+    color: #ff0000;
+  }
+a:visited {
+    color: #00ff00;
+  } 
+a:hover {
+    color: #ffff00;
+  }  
