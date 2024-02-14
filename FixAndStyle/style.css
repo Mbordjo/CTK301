@@ -1,0 +1,44 @@
+header{
+    background-color: lightskyblue;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: blue;
+}
+h3{
+    background-color: yellow;
+}
+h4{
+    background-color: green;
+    color: yellow;
+}
+h5{
+    color: red;
+}
+b {
+    color: gold;
+}
+
+a:link {
+    color: green;
+    text-decoration:none;
+  }
+a:hover {
+    color: red;
+    text-decoration:underline;
+  } 
+#red {
+    color: red;
+}
+
+#green {
+    background-color: lightgreen;
+}
+.yellow {
+    background-color: yellow;
+  }
+#blue{
+    color: blue;
+}
