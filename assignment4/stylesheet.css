@@ -1,0 +1,79 @@
+/*StyleSheet made by Aiden Bordjoski || Completed on 2/18/2024*/
+
+/* changing all of the font */
+body {
+    font-family: Arial, Helvetica;
+    background-image: url(bgimg.png);
+}
+
+h1 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h4 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#sequence {
+    /*                 RRGGBB   */
+    background-color: #e93865;  
+}
+
+#about {
+    /*                 RRGGBB   */
+    background-color: #e93865;  
+}
+
+#line {
+text-justify: i;
+}
+
+.two {
+    background-color: rgb(152, 206, 129); 
+    color: #03ac3b; 
+}
+
+.three {
+    background-color: rgb(216, 146, 212); 
+    color: #9b03ac; 
+}
+
+/* Changing link colors*/
+a:link {
+    color: #ff0000;
+  }
+a:visited {
+    color: #00ff00;
+  } 
+a:hover {
+    color: #ffff00;
+  }  
+
+.myDiv {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+  }
+
+img {
+    border: 20px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+}
