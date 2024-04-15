@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #B3CDE0;
+}
+
+/* To make the naviagation bar look good and make the hamburger menu work*/
+.nav-bar {
+  grid-column: span 12;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  position: relative;
+  background-color: #6497B1;
+  padding: 12px 20px;
+  font-family: "Tilt Neon", sans-serif;
+}
+nav h1 a {
+  text-decoration: none;
+  color: white;
+}
+.menu {
+  display: flex;
+}
+.menu li {
+  padding-left: 30px;
+}
+.menu li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  transition: 0.15s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+}
+.menu li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  transition: 0.15s ease-in-out;
+}
+.menu li a:hover:after {width: 100%;}
+.open-menu , .close-menu {
+  position: absolute;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;
+}
+.open-menu {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+.close-menu {
+  top: 20px;
+  right: 20px;
+}
+#check {display:none;}
+@media(max-width:720px){
+  .menu{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background-color: #6497B1;
+    transition: all 0.2s ease-in-out;
+  }
+  .menu li {
+    margin-top: 40px;
+  }
+  .menu li a {
+    padding: 10px;
+  }
+  .open-menu , .close-menu {
+    display: block;
+  }
+  #check:checked ~ .menu{
+    right: 0;
+  }
+}
+/*End of the Hamburger Menu*/
+
+#wrapper {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+main {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+main section h2 {
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 36px;
+  font-family: "Zilla Slab", serif;
+}
+main section {
+  grid-column: span 12;
+  margin-top: 20px;
+  color: white;
+}
+
+footer {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 24px;
+  background-color: #6497B1;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
