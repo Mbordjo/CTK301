@@ -169,6 +169,7 @@ h3 {
   display: inline-block;
   width: 400px;
   height: 50px;
+  margin-right: 40px;
 }
 .overlay {
   position: absolute;
@@ -218,6 +219,25 @@ h3 {
 }
 /*ending of making image overlay*/
 
+#bigicons {
+  font-size: 100px;
+  text-align: center;
+}
+#wordsundericons {
+  text-align: center;
+  display: inline-block;
+}
+#sec-backcolor {
+  background-color: #005B96;
+  grid-template-columns: 1fr 1fr;
+}
+#sec-backcolor h2 {
+  border: 0;
+}
+#sec-backcolor section {
+  grid-column: span 1;
+}
+
 footer {
   grid-column: span 12;
   display: grid;
@@ -234,4 +254,7 @@ footer {
 footer a{
   text-decoration: none;
   color: white;
+}
+#contacthover a:hover{
+  text-decoration: underline;
 }
