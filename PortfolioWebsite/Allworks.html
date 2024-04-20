@@ -36,8 +36,8 @@
 				<span class="menu">
 					<li><a href="Aboutme.html">About Me</a></li>
 					<li><a href="Gamedesign.html">Game Design</a></li>
-					<li><a href="Graphicdesign.html">Graphic Design</a></li>
 					<li><a href="Webdesign.html">Web Design</a></li>
+					<li><a href="Graphicdesign.html">Mixed Media</a></li>
 					<label for="check" class="close-menu"><i class="bi bi-x-lg"></i></label>
 				</span>
 				<label for="check" class="open-menu"><i class="bi bi-list"></i></label>
@@ -49,35 +49,38 @@
 			<section>
 				<h2>All of My Work</h2>
 				<h3>Game Design</h3>
+				<p>
+					All of my projects in Game Design
+				</p>
 				<div id="myCarousel" class="f-carousel">
-					<div class="f-carousel__slide"><a href="#"><img src="lost souls.gif"></a></div>
-					<div class="f-carousel__slide"><a href="Boundbywalls.html"><img src="completedintro.png"></a></div>
-					<div class="f-carousel__slide"><a href="#"><img src="unspokenWords.png"></a></div>
-					<div class="f-carousel__slide"><a href="#"><img src="lost souls.gif"></a></div>
-					<div class="f-carousel__slide"><a href="Boundbywalls.html"><img src="completedintro.png"></a></div>
-					<div class="f-carousel__slide"><a href="#"><img src="unspokenWords.png"></a></div>
+					<div class="f-carousel__slide"><a href="Gamedesign/lostsouls.html"><img src="Gamedesign/lost souls.gif"></a></div>
+					<div class="f-carousel__slide"><a href="Gamedesign/Boundbywalls.html"><img src="Gamedesign/completedintro.png"></a></div>
+					<div class="f-carousel__slide"><a href="Gamedesign/unspokenwords.html"><img src="Gamedesign/unspokenWords.png"></a></div>
+					<div class="f-carousel__slide"><a href="Gamedesign/Shatteredreality.html"><img src="Gamedesign/Shatteredreality.gif"></a></div>
+				</div>
+			</section> 
+			<section>
+				<h3>Web Design</h3>
+				<p>
+					All of my projects in Web Design
+				</p>
+				<div id="myCarousel2" class="f-carousel">
+					<div class="f-carousel__slide"><a href="Webdesign/notionschoolplanner.html"><img src="lost souls.gif"></a></div>
+					<div class="f-carousel__slide"><a href="Webdesign/Aidenportfolio.html"><img src="completedintro.png"></a></div>
+					<div class="f-carousel__slide"><a href="Webdesign/Homeguardian.html"><img src="unspokenWords.png"></a></div>
 				</div>
 			</section>
 			<section>
-				<h3>Webdesign</h3>
-				<div id="myCarousel" class="f-carousel">
-					<div class="f-carousel__slide"><a href="#"><img src="lost souls.gif"></a></div>
-					<div class="f-carousel__slide"><a href="Boundbywalls.html"><img src="completedintro.png"></a></div>
-					<div class="f-carousel__slide"><a href="#"><img src="unspokenWords.png"></a></div>
-					<div class="f-carousel__slide"><a href="#"><img src="lost souls.gif"></a></div>
-					<div class="f-carousel__slide"><a href="Boundbywalls.html"><img src="completedintro.png"></a></div>
-					<div class="f-carousel__slide"><a href="#"><img src="unspokenWords.png"></a></div>
-				</div>
-			</section>
-			<section>
-				<h3>Mix Media</h3>
-				<div id="myCarousel" class="f-carousel">
-					<div class="f-carousel__slide"><a href="#"><img src="lost souls.gif"></a></div>
-					<div class="f-carousel__slide"><a href="Boundbywalls.html"><img src="completedintro.png"></a></div>
-					<div class="f-carousel__slide"><a href="#"><img src="unspokenWords.png"></a></div>
-					<div class="f-carousel__slide"><a href="#"><img src="lost souls.gif"></a></div>
-					<div class="f-carousel__slide"><a href="Boundbywalls.html"><img src="completedintro.png"></a></div>
-					<div class="f-carousel__slide"><a href="#"><img src="unspokenWords.png"></a></div>
+				<h3>Mixed Media</h3>
+				<p>
+					All of my projects in Mixed Media
+				</p>
+				<div id="myCarousel3" class="f-carousel">
+					<div class="f-carousel__slide"><a href="Mixedmedia/willy.html"><img src="lost souls.gif"></a></div>
+					<div class="f-carousel__slide"><a href="Mixedmedia/goosephotos.html"><img src="completedintro.png"></a></div>
+					<div class="f-carousel__slide"><a href="Mixedmedia/ghostsonquad.html"><img src="unspokenWords.png"></a></div>
+					<div class="f-carousel__slide"><a href="Mixedmedia/flowerphotos.html"><img src="lost souls.gif"></a></div>
+					<div class="f-carousel__slide"><a href="Mixedmedia/misspiggy.html"><img src="completedintro.png"></a></div>
 				</div>
 			</section>
 		</main>
@@ -92,6 +95,8 @@
 				<a class="bi bi-pinterest" href="https://pin.it/59A4DlpXK" target="_blank"></a>
 				<a class="bi bi-spotify" href="https://open.spotify.com/user/315i7jelaqerkve22kt3quzrgj6u" target="_blank"></a>
 				<a class="bi bi-steam" href="https://steamcommunity.com/profiles/76561199044276357" target="_blank"></a>
+				<a class="bi bi-github" href="https://github.com/Mbordjo" target="_blank"></a>
+				<a class="bi bi-instagram" href="https://instagram.com/blue_lightning147/" target="_blank"></a>
 			</section>
 		</footer>
 	</div>
@@ -100,5 +105,13 @@
     const container = document.getElementById("myCarousel");
     const options = { infinite: true };
     new Carousel(container, options);
+
+	const container2 = document.getElementById("myCarousel2");
+    const options2 = { infinite: true };
+    new Carousel(container2, options2);
+
+	const container3 = document.getElementById("myCarousel3");
+    const options3 = { infinite: true };
+    new Carousel(container3, options3);
 </script>
 </html>

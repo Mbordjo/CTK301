@@ -96,6 +96,7 @@ h3 {
 #sec-backcolor {
   background-color: #005B96;
   grid-template-columns: 1fr 1fr;
+  grid-column: span 12;
 }
 #sec-backcolor h2 {
   border: 0;
@@ -225,6 +226,26 @@ nav h1 a {
   padding: 24px;
   background: #eee;
 }
+
+#myCarousel2 {
+  margin-bottom: 24px;
+}
+
+#myCarousel2 .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #eee;
+}
+
+#myCarousel3 {
+  margin-bottom: 24px;
+}
+
+#myCarousel3 .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #eee;
+}
 /*end of carousel*/
 /*Making image overlay*/
 .container {
@@ -282,54 +303,5 @@ nav h1 a {
 }
 /*ending of making image overlay*/
 /*Making the contact form*/
-#contact {
-	padding-bottom: 120px;
-}
-#contact a {
-	color: #6497B1;
-}
-#contact a:hover {
-	text-decoration: none;
-}
-.field {
-	font-size: 1.7em; /*17px*/
-	margin-top: 25px; /*space between fields*/
-}
-#name, #email, #subject, #message {
-	border: 1px solid #2C3E50;
-	background: #EFE7CD;
-	padding: 5px;
-}
-#name, #email, #subject {
-	width: 100%;
-	height: 40px;
-}
-#message {
-	width: 100%;
-	height: 180px;
-}
-::-webkit-input-placeholder { /*webkit, blink, edge */
-	color: #FF6F69;
-}
-::-moz-placeholder { /*mozilla firefox 19+ */
-	color: #FF6F69;
-	opacity: 1;
-}
-:-ms-input-placeholder { /*IE 10-11 */
-	color: #FF6F69;
-}
-button {
-	height: 50px;
-	width: 150px;
-	font-size: 1.5em; /*30px*/
-	color: #EFE7CD;
-	margin-top: -10px;
-	background-color: #348B8B;
-	float: right;
-	border: 0px;
-}
-button:hover {
-	background-color: #FF6F69;
-	color: #EFE7CD;
-}
+
 /*End of the contact form*/
